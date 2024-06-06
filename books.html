@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Book Reviews"
+permalink: /books/
+---
+
+<div class="book-reviews">
+  <h1>Book Reviews</h1>
+  <ul>
+    {% for book in site.books %}
+      <li>
+        <a href="{{ book.url }}">
+          {% if book.cover_image %}
+            <img src="{{ book.cover_image }}" alt="Cover image of {{ book.title }}" class="book-cover">
+          {% endif %}
+          <h2>{{ book.title }}</h2>
+          <p>{{ book.author }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

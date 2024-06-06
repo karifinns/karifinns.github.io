@@ -647,3 +647,31 @@ table td {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Book Reviews Styles */
+.book-cover {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.book-reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-reviews li {
+  margin-bottom: 20px;
+}
+
+.book-reviews img.book-cover {
+  max-width: 100px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.book-reviews h2 {
+  margin: 0;
+}

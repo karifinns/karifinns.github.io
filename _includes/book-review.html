@@ -1,0 +1,12 @@
+<article class="book-review">
+    <header>
+      <h2>{{ include.title }}</h2>
+    </header>
+    <div class="book-cover">
+      <img src="{{ include.image }}" alt="Cover of {{ include.title }}">
+    </div>
+    <div class="book-review-content">
+      {{ content }}
+    </div>
+  </article>
+  
