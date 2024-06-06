@@ -1,7 +1,7 @@
 title: "Why Greatness Cannot Be Planned"
 author: "Kenneth O. Stanley, Joel Lehman"
 date: 2024-06-06
-cover_image: /assets/images/arangursriki.jpeg
+cover_image: /assets/images/greatness.jpeg
 layout: book-review
 ---
 Why Greatness Cannot Be Planned, eftir Kenneth O. Stanley and Joel Lehman, er einhver forvitnilegasta bók sem ég hef lesið lengi. Bókin fjallar um hvernig ekki er hægt að ná fram metnaðarfullum árangri með því að setja sér markmið. Markmið eru gagnleg fyrir smærri verkefni - ná sölumarkmiði fyrir næsta ársfjórðung, léttast um 5 kg o.s.frv. Þegar kemur að stærri verkefnum - lækna krabbamein, búa til nýjan orkugjafa og margt fleira í þeim dúr, þá er markmiðasetning ekki bara ógagnleg heldur beinlínis skaðleg. 
