@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="book-review">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p><strong>Author:</strong> {{ page.author }}</p>
+    <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+    {% if page.cover_image %}
+      <img src="{{ page.cover_image }}" alt="Cover image of {{ page.title }}" class="book-cover">
+    {% endif %}
+  </header>
+  <div class="content">
+    {{ content }}
+  </div>
+</article>

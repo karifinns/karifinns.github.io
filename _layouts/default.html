@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fyrsta færslan | Kári Finnsson</title>
-  <link rel="stylesheet" href="/assets/main.css">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header" role="banner">
     <div class="wrapper">
-      <a class="site-title" rel="author" href="/">Kári Finnsson</a>
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -22,43 +22,29 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="/about/">About</a>
-          <a class="page-link" href="/books/">Books</a>
+          <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+          <a class="page-link" href="{{ '/books/' | relative_url }}">Books</a>
         </div>
       </nav>
     </div>
   </header>
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Fyrsta færslan</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2024-06-03T14:32:36+00:00" itemprop="datePublished">Jun 3, 2024
-      </time></p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Hér verður hægt að lesa um hitt og þetta til gagns og gamans.</p>
-
-  </div><a class="u-url" href="/jekyll/update/2024/06/03/welcome-to-jekyll.html" hidden></a>
-</article>
-
+      {{ content }}
     </div>
   </main>
   <footer class="site-footer h-card">
     <div class="wrapper">
-      <h2 class="footer-heading">Kári Finnsson</h2>
+      <h2 class="footer-heading">{{ site.title }}</h2>
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
           <ul class="contact-list">
-            <li class="p-name">Kári Finnsson</li>
-            <li><a class="u-email" href="mailto:strutur@gmail.com">strutur@gmail.com</a></li>
+            <li class="p-name">{{ site.title }}</li>
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           </ul>
         </div>
         <div class="footer-col footer-col-3">
-          <p>Hugleiðingar og lesefni</p>
+          <p>{{ site.description }}</p>
         </div>
       </div>
     </div>

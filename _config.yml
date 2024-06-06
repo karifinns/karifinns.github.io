@@ -31,6 +31,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections:
+  books:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
