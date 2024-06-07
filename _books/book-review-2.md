@@ -1,3 +1,4 @@
+---
 title: "Why Greatness Cannot Be Planned"
 author: "Kenneth O. Stanley, Joel Lehman"
 date: 2024-06-06
