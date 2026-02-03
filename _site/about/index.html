@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <title>Um mig | Kári Finnsson</title>
+  <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
   <header class="site-header" role="banner">
     <div class="wrapper">
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="site-title" rel="author" href="/">Kári Finnsson</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -22,28 +22,41 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="{{ '/about/' | relative_url }}">Um mig</a>
+          <a class="page-link" href="/about/">Um mig</a>
+          <a class="page-link" href="/books/">Bækur</a>
         </div>
       </nav>
     </div>
   </header>
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      {{ content }}
+      <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Um mig</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Kári Finnsson er hagfræðingur, listfræðingur og forstöðumaður viðskiptaþróunar hjá Creditinfo</p>
+
+  </div>
+
+</article>
+
     </div>
   </main>
   <footer class="site-footer h-card">
     <div class="wrapper">
-      <h2 class="footer-heading">{{ site.title }}</h2>
+      <h2 class="footer-heading">Kári Finnsson</h2>
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
           <ul class="contact-list">
-            <li class="p-name">{{ site.title }}</li>
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li class="p-name">Kári Finnsson</li>
+            <li><a class="u-email" href="mailto:strutur@gmail.com">strutur@gmail.com</a></li>
           </ul>
         </div>
         <div class="footer-col footer-col-3">
-          <p>{{ site.description }}</p>
+          <p>Hugleiðingar og lesefni</p>
         </div>
       </div>
     </div>

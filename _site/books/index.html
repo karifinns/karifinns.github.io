@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <title>Bækur | Kári Finnsson</title>
+  <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
   <header class="site-header" role="banner">
     <div class="wrapper">
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="site-title" rel="author" href="/">Kári Finnsson</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -22,28 +22,57 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="{{ '/about/' | relative_url }}">Um mig</a>
+          <a class="page-link" href="/about/">Um mig</a>
+          <a class="page-link" href="/books/">Bækur</a>
         </div>
       </nav>
     </div>
   </header>
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      {{ content }}
+      <div class="book-review">
+  <h1>Bækur</h1>
+  <p>Hér skrifa ég um bækur sem ég hef lesið.</p> <!-- Explanatory text in Icelandic -->
+  <ul>
+    
+      <li>
+        <a href="/books/book-review-1.html">
+          
+            <img src="/assets/images/arangursriki.jpeg" alt="Cover image of Árangursríki stjórnandinn" class="book-cover">
+          
+          <h2>Árangursríki stjórnandinn</h2>
+          <p>Peter Drucker</p>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/books/book-review-2.html">
+          
+            <img src="/assets/images/greatness.jpeg" alt="Cover image of Why Greatness Cannot Be Planned" class="book-cover">
+          
+          <h2>Why Greatness Cannot Be Planned</h2>
+          <p>Kenneth O. Stanley, Joel Lehman</p>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
     </div>
   </main>
   <footer class="site-footer h-card">
     <div class="wrapper">
-      <h2 class="footer-heading">{{ site.title }}</h2>
+      <h2 class="footer-heading">Kári Finnsson</h2>
       <div class="footer-col-wrapper">
         <div class="footer-col footer-col-1">
           <ul class="contact-list">
-            <li class="p-name">{{ site.title }}</li>
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li class="p-name">Kári Finnsson</li>
+            <li><a class="u-email" href="mailto:strutur@gmail.com">strutur@gmail.com</a></li>
           </ul>
         </div>
         <div class="footer-col footer-col-3">
-          <p>{{ site.description }}</p>
+          <p>Hugleiðingar og lesefni</p>
         </div>
       </div>
     </div>
