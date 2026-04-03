@@ -1,0 +1,28 @@
+---
+title: "Við erum í sjónrænum bransa"
+description: "Um vörumerki, samræmi og það hvernig smáatriði móta traust langt út fyrir yfirborðið."
+publishDate: 2026-04-03
+tags:
+  - Vörumerki
+  - Menning
+  - Viðskipti
+draft: false
+---
+
+Einu sinni starfaði ég á fjármálasviði á listagalleríi í New York. Starfið fékk ég eftir að hafa lokið við nám í listviðskiptum hjá Sotheby´s Institute of Art en eigandi gallerísins hafði smalað mér úr skólanum vegna þess að hún þurfti einhvern talnaglöggan og listþenkjandi einstakling til að starfa hjá sér.
+
+Starfið var vægast sagt krefjandi, ekki endilega vegna þess hversu erfitt það var að halda utan um fjármál gallerísins (sem var á við meðalstórt fyrirtæki í veltu á íslenskan mælikvarða), heldur vegna eigandans. Hún hafði verið stórt nafn í áttunni í listheiminum og þekkti alla í bransanum. Hún var hörð í horn að taka en líka klók á markaðinn og með einstaklega gott auga. Þessu til viðbótar var hún með OCD á háu stigi, sem varð til þess að andrúmsloft vinnustaðarins var þrúgandi og streitufullt þar sem allt þurfti að vera gert samkvæmt hennar höfði og hennar einstöku reglum. Hvern einasta morgun þurfi skrifborðið hennar að vera sett upp með sama hætti, sama teið ætti að vera pantað frá sama stað á sama tíma og hafa nákvæmlega rétt hitastig. Hárblásarinn fór af stað ef einhver vék frá þessari áætlun.
+
+Ég sá að megninu til um að halda utan um reikningagerð til að byrja með, taka saman greiðsluáætlanir fyrir kúnna og gefa út rétta reikninga á rétta viðskiptavini. Ekki beint mikill glamúr en það kom mér á þann stað sem ég hafði sóst eftir, að vera í hringiðu listalífsins í New York. Ég lagði mikla áherslu á nákvæmni í vinnubrögðum og passaði sérstaklega upp á að allar tölur stemmdu - miklar fjárhæðir voru í húfi og því mikilvægt að passa sig. Allir reikningar þurftu á endanum að fara til samþykktar hjá eigandanum áður en þeir voru sendir áfram. Þannig að ég þurfti að prenta þá alla út og sýna henni reikninginn áður en ég póstlagði hann.
+
+Þegar mér var fyrst treyst fyrir að skrifa reikning sjálfur vandaði ég mig sérstaklega vel. Ég fór yfir upphæðirnar aftur og aftur og lagði reikninginn svo titrandi á skrifborðið hennar. “Kári, þetta er ekki nógu gott,” sagði hún og ég var undrandi. Ég veit að ég fór yfir upphæðina aftur og aftur, hvað gæti verið rangt? Hún sýndi mér hvernig línubilið var ekki í symmetríu, hvernig letrið var ekki nógu samhæft og að samtalan neðst á reikningnum væri ekki í nákvæmlega réttri fjarlægð frá undirliðunum. “Af hverju skiptir það máli?,” spurði ég. “Upphæðirnar eru allar réttar.” Hún tók niður lesgleraugun þreytulega og horfði síðan vonsvikin á mig og sagði: “Kári, við erum í sjónrænum bransa. Hvernig heldur þú að viðskiptavini sem hefur eytt hundruðum þúsundum dollara í listaverk lítist á það að fá reikning í hendurnar sem er ekki symmetrískur? Það rýrir okkar traust gagnvart honum og sendir kolröng skilaboð um það sem við stöndum fyrir.”
+
+Ég verð að viðurkenna að ég áttaði mig ekki alveg á því þá, en þetta voru skilaboð sem áttu eftir að hafa mótandi áhrif á mig í mínum starfsferli löngu eftir að ég lét af störfum hjá galleristanum geðþekka. Mér fannst smámunasemin í henni pirrandi og vinnuaðstæðurnar hennar mjög erfiðar. En engu að síður hafði hún mikið til síns máls og skilaboðin hennar eiga við um nær allan rekstur.
+
+Við heyrum oft talað um vörumerki og virði vörumerkja en ég held að margir taki því ekki nógu alvarlega hvað vörumerki (e. brand) fyrirtækja og stofnana skiptir miklu máli, né hvað hugtakið þýðir í raun og veru. Vörumerki er nefnilega frekar léleg þýðing á orðinu brand vegna þess að það hefur of mikla skírskotun í merki og myndmál fyrirtækja, sem er auðvitað framlenging á vörumerki en alls ekki allt það sem vörumerki er. Vörumerki er heildræn hugmynd um hvað fyrirtæki eða stofnun stendur fyrir. Það smitast ekki aðeins í merki eða myndmál fyrirtækisins og ekki heldur bara í markaðsskilaboð þess, það smitast í því hvernig talað er við viðskiptavini, hvernig frágangur verkefna er og hvernig fólk vinnur saman að sameiginlegu markmiði.
+
+Í þessum skilningi er t.d. vörumerki bifreiðaverkstæðis ekki aðeins merki þess á skilti eða á vefsíðu heldur líka hvernig þjónustulundað starfsfólkið er, hvort það sé boðið upp á kaffi á biðstofunni, hvernig frágangur verkfæra er og þar fram eftir götunum. Vörumerki er því ekki bara “hvernig lítum við út”, heldur, “hvernig sýnum við viðskiptavinum í öllu því sem við gerum hvað við stöndum fyrir”. Vörumerki gallerísins sem ég starfaði hjá var ekki bara einskorðað við fólkið sem seldi listaverkin, heldur smitaðist það líka yfir í því hvort línubilin á reikningunum væru symmetrísk, til viðbótar við að tölurnar stemmdu. Við erum í sjónrænum bransa og við stöndum fyrir ákveðið loforð gagnvart viðskiptavinum í öllu því sem við gerum.
+
+Þessi hugsun gallerstans hefur setið í mér allar götur síðan. Hún hefur hjálpað mér að sjá að til að fyrirtæki og stofnanir starfi með framúrskarandi hætti þá skiptir máli að allir gangi í takt eftir skýrri stefnu. Stefnan í þessu tilfelli er ekki gildi í nokkrum orðum á veggjum fyrirtækja, heldur er hún heildræn sýn allra innan fyrirtækja um hvað fyrirtækið stendur fyrir.
+
+Ég endaði ekki á að starfa lengi fyrir galleristann geðþekka, mér fannst menningin þrúgandi og erfið og svo virtist sem hún gerði ráð fyrir að allir starfsmenn væru persónulegir aðstoðarmenn hennar í hlutastarfi. Ég endaði á því að flytja aftur til Íslands og varð lítið var við hana þar til ég frétti af því að hún var ákærð fyrir skattsvik árið 2018 og sat inni í fangelsi í rúmt ár. Ég veit ekki hvar hún er niðurkomin í dag en ég veit að það sem hún kenndi mér um verðmæti vörumerkja mun sitja í mér um ókomna tíð.

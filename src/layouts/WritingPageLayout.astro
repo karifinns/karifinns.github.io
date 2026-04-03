@@ -35,7 +35,7 @@ const { title, description, publishDate, updatedDate, tags = [], canonicalPath }
         <SiteNav />
       </header>
       <main class="page-content">
-        <article class="prose">
+        <article class="prose writing-article" data-sidenotes-root>
           <header class="prose-header">
             <h1>{title}</h1>
             <p class="lede">{description}</p>
@@ -52,8 +52,145 @@ const { title, description, publishDate, updatedDate, tags = [], canonicalPath }
             )}
           </header>
           <slot />
+          <aside class="sidenote-layer" aria-hidden="true"></aside>
         </article>
       </main>
     </div>
+    <script is:inline>
+      (() => {
+        const desktopQuery = window.matchMedia("(min-width: 1200px)");
+
+        function cleanNoteContent(note) {
+          const clone = note.cloneNode(true);
+
+          clone.querySelectorAll(".data-footnote-backref, .footnote-backref").forEach((link) => {
+            link.remove();
+          });
+
+          return clone.innerHTML.trim();
+        }
+
+        function getTargetId(anchor) {
+          const href = anchor.getAttribute("href");
+
+          if (!href || !href.includes("#")) {
+            return null;
+          }
+
+          return href.split("#").pop();
+        }
+
+        function buildSidenotes(article) {
+          const footnotes = article.querySelector(".footnotes");
+          const layer = article.querySelector(".sidenote-layer");
+
+          if (!footnotes || !layer) {
+            return;
+          }
+
+          const refs = Array.from(article.querySelectorAll("sup a[href*='fn']"));
+          const notes = refs
+            .map((ref, index) => {
+              const targetId = getTargetId(ref);
+              const note = targetId ? article.querySelector(`#${CSS.escape(targetId)}`) : null;
+
+              if (!note) {
+                return null;
+              }
+
+              const sidenote = document.createElement("div");
+              sidenote.className = "sidenote";
+              sidenote.dataset.noteFor = targetId;
+              sidenote.innerHTML = `<span class="sidenote-number">${index + 1}</span>${cleanNoteContent(
+                note
+              )}`;
+
+              return { ref, sidenote };
+            })
+            .filter(Boolean);
+
+          layer.replaceChildren(...notes.map((item) => item.sidenote));
+
+          const articleRect = article.getBoundingClientRect();
+          const minGap = 24;
+          let cursor = 0;
+
+          notes.forEach((item) => {
+            const refRect = item.ref.getBoundingClientRect();
+            const desiredTop = refRect.top - articleRect.top - 6;
+            const top = Math.max(desiredTop, cursor);
+            item.sidenote.style.top = `${top}px`;
+            cursor = top + item.sidenote.offsetHeight + minGap;
+          });
+
+          refs.forEach((ref, index) => {
+            ref.dataset.sidenoteTarget = notes[index]?.sidenote.dataset.noteFor ?? "";
+          });
+        }
+
+        function syncMode(article) {
+          const footnotes = article.querySelector(".footnotes");
+          const layer = article.querySelector(".sidenote-layer");
+
+          if (!footnotes || !layer) {
+            return;
+          }
+
+          const useSidenotes = desktopQuery.matches;
+          article.classList.toggle("has-sidenotes", useSidenotes);
+
+          if (useSidenotes) {
+            buildSidenotes(article);
+          } else {
+            layer.replaceChildren();
+          }
+        }
+
+        function mountSidenotes() {
+          const article = document.querySelector("[data-sidenotes-root]");
+
+          if (!article) {
+            return;
+          }
+
+          syncMode(article);
+
+          const rerender = () => syncMode(article);
+          window.addEventListener("resize", rerender, { passive: true });
+          desktopQuery.addEventListener("change", rerender);
+
+          article.addEventListener("click", (event) => {
+            const link = event.target.closest("sup a[data-sidenote-target]");
+
+            if (!link || !desktopQuery.matches) {
+              return;
+            }
+
+            event.preventDefault();
+
+            const targetId = link.dataset.sidenoteTarget;
+            const sidenote = targetId
+              ? article.querySelector(`.sidenote[data-note-for='${CSS.escape(targetId)}']`)
+              : null;
+
+            if (!sidenote) {
+              return;
+            }
+
+            article.querySelectorAll(".sidenote.is-active").forEach((note) => {
+              note.classList.remove("is-active");
+            });
+
+            sidenote.classList.add("is-active");
+          });
+        }
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", mountSidenotes, { once: true });
+        } else {
+          mountSidenotes();
+        }
+      })();
+    </script>
   </body>
 </html>

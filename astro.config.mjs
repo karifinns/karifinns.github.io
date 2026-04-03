@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import remarkGfm from "remark-gfm";
 
 const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
 const isUserSite = repositoryName.endsWith(".github.io");
@@ -12,6 +13,7 @@ export default defineConfig({
   trailingSlash: "ignore",
   integrations: [sitemap()],
   markdown: {
+    remarkPlugins: [remarkGfm],
     shikiConfig: {
       theme: "github-light"
     }
