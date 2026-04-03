@@ -9,22 +9,21 @@ const writing = getVisibleWriting(await getCollection("writing")).slice(0, 5);
 ---
 
 <MainLayout title={siteTitle} description={siteDescription} showNav={false}>
-  <section class="intro">
-    <h1>{siteTitle}</h1>
-    <p class="lede">{siteTagline}</p>
+  <section class="intro intro-home">
+    <h1 class="site-title">{siteTitle}</h1>
+    <p class="site-tagline">{siteTagline}</p>
   </section>
 
-  <section aria-labelledby="recent-writing">
+  <section class="home-writing" aria-labelledby="recent-writing">
     <h2 id="recent-writing">Nýleg skrif</h2>
-    <WritingList entries={writing} headingLevel="h3" />
+    <WritingList entries={writing} headingLevel="h3" variant="home" />
   </section>
 
-  <section aria-labelledby="sections">
-    <h2 id="sections">Yfirlit</h2>
+  <nav class="home-navline" aria-label="Leiðsögn">
     <ul class="section-links">
       {navigation.map((item) => (
         <li><a href={withBase(item.href)}>{item.label}</a></li>
       ))}
     </ul>
-  </section>
+  </nav>
 </MainLayout>

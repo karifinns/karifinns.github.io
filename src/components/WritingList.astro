@@ -7,13 +7,14 @@ interface Props {
   entries: CollectionEntry<"writing">[];
   showDescription?: boolean;
   headingLevel?: "h2" | "h3";
+  variant?: "default" | "home";
 }
 
-const { entries, showDescription = false, headingLevel = "h2" } = Astro.props;
+const { entries, showDescription = false, headingLevel = "h2", variant = "default" } = Astro.props;
 const HeadingTag = headingLevel;
 ---
 
-<ol class="writing-list">
+<ol class:list={["writing-list", variant === "home" && "writing-list-home"]}>
   {entries.map((entry) => (
     <li>
       <a class="writing-link" href={withBase(`/writing/${entry.slug}/`)}>
