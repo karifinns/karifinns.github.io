@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import WritingList from "../../components/WritingList.astro";
+import { withBase } from "../../lib/site";
+import { getVisibleWriting, slugifyTag } from "../../lib/writing";
+
+const entries = getVisibleWriting(await getCollection("writing"));
+const tags = [...new Set(entries.flatMap((entry) => entry.data.tags))].sort((a, b) =>
+  a.localeCompare(b)
+);
+---
+
+<MainLayout
+  title="Skrif"
+  description="Greinar, athugasemdir og lengri textar raðaðir í öfuga tímaröð."
+>
+  <section class="intro">
+    <span class="eyebrow">Skrif</span>
+    <h1>Skrif</h1>
+    <p class="lede">
+      Greinar, glósur og brot raðast hér eftir dagsetningu, með áherslu á lestur fremur en
+      framsetningu.
+    </p>
+    {tags.length > 0 && (
+      <ul class="tag-list" aria-label="Efnisorð skrifa">
+        {tags.map((tag) => (
+          <li><a href={withBase(`/writing/tags/${slugifyTag(tag)}/`)}>{tag}</a></li>
+        ))}
+      </ul>
+    )}
+  </section>
+
+  <WritingList entries={entries} showDescription={true} />
+</MainLayout>

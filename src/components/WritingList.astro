@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { withBase } from "../lib/site";
+import { formatDate } from "../lib/writing";
+
+interface Props {
+  entries: CollectionEntry<"writing">[];
+  showDescription?: boolean;
+  headingLevel?: "h2" | "h3";
+}
+
+const { entries, showDescription = false, headingLevel = "h2" } = Astro.props;
+const HeadingTag = headingLevel;
+---
+
+<ol class="writing-list">
+  {entries.map((entry) => (
+    <li>
+      <a class="writing-link" href={withBase(`/writing/${entry.slug}/`)}>
+        <span class="writing-title">
+          <HeadingTag>{entry.data.title}</HeadingTag>
+        </span>
+        <time datetime={entry.data.publishDate.toISOString()}>
+          {formatDate(entry.data.publishDate)}
+        </time>
+      </a>
+      {showDescription && <p>{entry.data.description}</p>}
+    </li>
+  ))}
+</ol>

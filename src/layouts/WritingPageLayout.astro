@@ -1,0 +1,59 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import GlobalStyles from "../components/GlobalStyles.astro";
+import SiteNav from "../components/SiteNav.astro";
+import { withBase } from "../lib/site";
+import { formatDate } from "../lib/writing";
+import { slugifyTag } from "../lib/writing";
+
+interface Props {
+  title: string;
+  description: string;
+  publishDate: Date;
+  updatedDate?: Date;
+  tags?: string[];
+  canonicalPath?: string;
+}
+
+const { title, description, publishDate, updatedDate, tags = [], canonicalPath } = Astro.props;
+---
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      canonicalPath={canonicalPath}
+      ogType="article"
+    />
+    <GlobalStyles />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="page-header">
+        <SiteNav />
+      </header>
+      <main class="page-content">
+        <article class="prose">
+          <header class="prose-header">
+            <h1>{title}</h1>
+            <p class="lede">{description}</p>
+            <div class="prose-meta">
+              <time datetime={publishDate.toISOString()}>{formatDate(publishDate)}</time>
+              {updatedDate && <span>Uppfært {formatDate(updatedDate)}</span>}
+            </div>
+            {tags.length > 0 && (
+              <ul class="tag-list" aria-label="Efnisorð">
+                {tags.map((tag) => (
+                  <li><a href={withBase(`/writing/tags/${slugifyTag(tag)}/`)}>{tag}</a></li>
+                ))}
+              </ul>
+            )}
+          </header>
+          <slot />
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

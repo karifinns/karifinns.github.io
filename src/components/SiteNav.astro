@@ -1,0 +1,11 @@
+---
+import { siteTitle } from "../lib/site";
+import { navigation, withBase } from "../lib/site";
+---
+
+<nav aria-label="Primary" class="site-nav">
+  <a href={withBase("/")}>{siteTitle}</a>
+  {navigation.map((item) => (
+    <a href={withBase(item.href)}>{item.label}</a>
+  ))}
+</nav>
