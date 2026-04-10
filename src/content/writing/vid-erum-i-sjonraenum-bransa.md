@@ -1,7 +1,7 @@
 ---
 title: "Við erum í sjónrænum bransa"
-description: "Um vörumerki, samræmi og það hvernig smáatriði móta traust langt út fyrir yfirborðið."
-publishDate: 2026-04-03
+description: "Um vörumerki, hvernig þau eru margbrotnari en þau virðast á yfirborðinu."
+publishDate: 2026-02-03
 tags:
   - Vörumerki
   - Menning

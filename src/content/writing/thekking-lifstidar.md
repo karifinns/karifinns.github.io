@@ -1,7 +1,7 @@
 ---
 title: "Þekking lífstíðar"
-description: "Um virði verka, fórnarkostnað og þá þekkingu sem safnast upp yfir langan tíma."
-publishDate: 2026-04-03
+description: "Um virði verka, fórnarkostnað og þekkingu sem safnast upp yfir langan tíma."
+publishDate: 2026-01-03
 tags:
   - Hagfræði
   - Menning
