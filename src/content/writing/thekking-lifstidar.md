@@ -9,7 +9,7 @@ tags:
 draft: false
 ---
 ![Whistler](/images/whistler.jpg)
-Bandaríski málarinn James McNeill Whistler[^dummy-note] fór eitt sinn í mál við listgagnrýnandann John Ruskin. Whistler kærði Ruskin fyrir meiðyrði vegna þess að hinn síðarnefndi rakkaði niður verk hans og sagði það fásinnu að einhver óskaði eftir “tvöhundruð gíneum fyrir málningarslettum í andlit almennings”. Verkið sem Ruskin vísaði til voru svokölluð “næturljóð” eftir Whistler þar sem hann málaði impressjóníska mynd af flugeldasýningu. Upphæðin sem Ruskin nefnir, 200 gíneur, var há upphæð á áttunda áratug 19. aldar, líklega tugir milljóna króna á verðlagi dagsins í dag.
+Bandaríski málarinn James McNeill Whistler[^note1] fór eitt sinn í mál við listgagnrýnandann John Ruskin. Whistler kærði Ruskin fyrir meiðyrði vegna þess að hinn síðarnefndi rakkaði niður verk hans og sagði það fásinnu að einhver óskaði eftir “tvöhundruð gíneum fyrir málningarslettum í andlit almennings”. Verkið sem Ruskin vísaði til voru svokölluð “næturljóð” eftir Whistler þar sem hann málaði impressjóníska mynd af flugeldasýningu. Upphæðin sem Ruskin nefnir, 200 gíneur, var há upphæð á áttunda áratug 19. aldar, líklega tugir milljóna króna á verðlagi dagsins í dag.
 
 Í réttarhöldunum var Whistler spurður hvað það hafi tekið hann langan tíma að mála verkið sem um ræðir og hann svaraði því að það tæki hann um tvo daga að klára.
 
@@ -25,10 +25,10 @@ Eitt af því sem ég hef helst lært af menningarstarfsemi, hvort sem um ræði
 
 Hvernig eigum við almennt að telja hluti til verðmæta? Hvað er það sem sker úr um hvort eitthvað sé meira virði en annað? Við tökum þannig afstöðu næstum daglega í viðskiptum. Þegar við kaupum vörur og þjónustu framkvæmum við sjálfkrafa hugarreikning með veskinu okkar þegar við kjósum að telja eitthvað kosta mikið eða lítið. Sameiginlegar ákvarðanir okkar um hvort við kjósum að kaupa vöru eða þjónustu á tilteknu verði hefur síðan áhrif á það hvert verðið verður í framtíðinni.
 
-Eitt það verðmætasta sem ég hef dregið úr námi mínu í hagfræði er hugmyndin um að það er ekkert til sem heitir ókeypis hádegisverður. Allt í kringum okkur kostar eitthvað, þótt við greiðum ekki alltaf beinar peningaupphæðir fyrir þá vöru eða þjónustu sem við sækjum þá erum við í hið minnsta alltaf að fórna tíma okkar eða orku sem hægt hefði verið að verja annars staðar. Við þurfum því að taka tillit til þess sem hagfræðingar kalla “fórnarkostnað” þegar við hugsum um verðmæti og hvernig við teljum hluti til verðmæta.
+Eitt það verðmætasta sem ég hef dregið úr námi mínu í hagfræði er hugmyndin um að það er ekkert til sem heitir ókeypis hádegisverður. Allt í kringum okkur kostar eitthvað, þótt við greiðum ekki alltaf beinar peningaupphæðir fyrir þá vöru eða þjónustu sem við sækjum þá erum við í hið minnsta alltaf að fórna tíma okkar eða orku sem hægt hefði verið að verja annars staðar. Við þurfum því að taka tillit til þess sem hagfræðingar kalla „fórnarkostnað“ þegar við hugsum um verðmæti og hvernig við teljum hluti til verðmæta.
 
 Þessi fórn sem við færum er hins vegar ekki alltaf í formi svitans af vinnunni sem unnin er til að framleiða einhvers konar afurð. Það eru ótal margir þættir sem við teljum saman þegar við tökum ákvörðun um hversu verðmæt vara eða þjónusta er, hvort sem það sé sérþekking sem býr að baki, sköpunargáfa, áreiðanleiki, eða bara þægindi sem fylgja neyslunni. Hugsaðu til þess þegar þú pantaðir síðast Dominos pítsu - var það vegna þess að pítsurnar eru svo bragðgóðar eða hversu mikil vinna fór í að gera þær? Eða var það vegna þess hversu þægilegt og fljótlegt það var að nálgast þær?
 
 Alveg eins og að næturljóð Whistler voru ekki verðmæt vegna dagafjöldans sem fór í málverkin, þá er vinnan sem við vinnum í þekkingarstarfi ekki aðeins verðmæt vegna klukkustundana sem við sitjum við skrifborðið. Við færum annars konar fórnir í formi þekkingar sem við höfum safnað upp yfir lífstíð okkar.
 
-[^dummy-note]: Þið þekkið hann líklegast þegar þið sjáið [þessa mynd](https://en.wikipedia.org/wiki/Whistler%27s_Mother).
+[^note1]: Þið þekkið hann líklegast þegar þið sjáið [þessa mynd](https://en.wikipedia.org/wiki/Whistler%27s_Mother).

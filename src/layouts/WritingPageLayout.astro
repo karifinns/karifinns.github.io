@@ -157,7 +157,16 @@ const { title, description, publishDate, updatedDate, tags = [], canonicalPath }
 
           const rerender = () => syncMode(article);
           window.addEventListener("resize", rerender, { passive: true });
+          window.addEventListener("load", rerender, { once: true });
           desktopQuery.addEventListener("change", rerender);
+
+          article.querySelectorAll("img").forEach((image) => {
+            if (image.complete) {
+              return;
+            }
+
+            image.addEventListener("load", rerender, { once: true });
+          });
 
           article.addEventListener("click", (event) => {
             const link = event.target.closest("sup a[data-sidenote-target]");
