@@ -388,6 +388,21 @@
     margin-bottom: 1.72rem;
   }
 
+  .prose p:has(> img:only-child) {
+    max-width: 35.5rem;
+    margin-top: 2.35rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .prose p > img:only-child {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid var(--line);
+  }
+
   .prose > p:first-of-type {
     font-size: 1.08em;
     color: color-mix(in srgb, var(--text) 88%, var(--muted));
