@@ -9,9 +9,9 @@ tags:
 draft: false
 ---
 
-Ef það er einhver einn “sannleikur” sem ég tek frá námi mínu í listfræði þá er það að það er ekkert til sem heitir línuleg framför í gæðum listaverka. Það má greina gæðamun á einstaka verkum, en það er ekkert sem heitir betra tímabil eða betri stíll í myndlist. Þetta kann að skjóta skökku við í augum flestra. Er ekki nokkuð augljóst að skýr gæðamunur sé á hellamálverki, miðaldarlágmynd og svo endurreisnarmálverki? Er ekki augljóst að maðurinn lærði að fanga náttúruna betur með fjarvíddinni þar sem hægt var að túlka þrívíð fyrirbæri á tvívíða flötum?
+Ef það er einhver einn „sannleikur“ sem ég tek frá námi mínu í listfræði þá er það að það er ekkert til sem heitir línuleg framför í gæðum listaverka. Það má greina gæðamun á einstaka verkum, en það er ekkert sem heitir betra tímabil eða betri stíll í myndlist. Þetta kann að skjóta skökku við í augum flestra. Er ekki nokkuð augljóst að skýr gæðamunur sé á hellamálverki, miðaldarlágmynd og svo endurreisnarmálverki? Er ekki augljóst að maðurinn lærði að fanga náttúruna betur með fjarvíddinni þar sem hægt var að túlka þrívíð fyrirbæri á tvívíða flötum?
 
-Þetta hélt ég áður en ég lærði listfræði og þetta var sú “saga listarinnar” sem ég hafði í huga. Sjónarhorn mitt snerist við þegar ég skildi að rétta leiðin til að horfa á myndlist er ekki að mæla listaverk út frá því hversu nákvæmlega þau fanga “raunveruleikann” heldur að nálgast þau út frá því sem listamaðurinn er að reyna að koma á framfæri. Markmiðið með málverki af upprisu Jesú Krists er ekki að fanga nákvæmlega andlitsdrætti hans eða hvernig skuggum birtan varpar á klæði hans. Markmiðið er miklu frekar að sýna með myndrænum hætti trúarlegt fyrirbæri og túlkun listamanna tekur breytingum með tímanum.
+Þetta hélt ég áður en ég lærði listfræði og þetta var sú „saga listarinnar“ sem ég hafði í huga. Sjónarhorn mitt snerist við þegar ég skildi að rétta leiðin til að horfa á myndlist er ekki að mæla listaverk út frá því hversu nákvæmlega þau fanga „raunveruleikann“ heldur að nálgast þau út frá því sem listamaðurinn er að reyna að koma á framfæri. Markmiðið með málverki af upprisu Jesú Krists er ekki að fanga nákvæmlega andlitsdrætti hans eða hvernig skuggum birtan varpar á klæði hans. Markmiðið er miklu frekar að sýna með myndrænum hætti trúarlegt fyrirbæri og túlkun listamanna tekur breytingum með tímanum.
 
 Ef við skoðum myndirnar tvær hérna fyrir neðan er auðvelt að upplifa þær sem eins konar línulega framför. Í öllum tilfellum er fjallað sama viðfangsefnið, fylgismenn Jesú Krists syrgja hann eftir krossfestinguna.
 
@@ -27,7 +27,7 @@ Fyrsta myndin sýnir einhverja dýpt í umhverfinu og andlitsdrættir og felling
 
 Listfræðin hjálpaði mér að skilja að þó maður skynji einhvers konar línulega framför, þá þýðir það ekki að hún sé raunverulega til staðar. Heimspekingurinn Isaiah Berlin orðaði þetta vel þegar hann talaði um hvernig hægt er að bera saman eina menningu við aðra:
 
-“Tungumál hinna svokölluðu frumstæðu manna er ekki ófullkomin túlkun á því sem komandi kynslóðir munu tjá með nákvæmari hætti: það hefur að geyma sína einstöku sýn á heiminn, sem er hægt að ná utan um, en ekki þýða algjörlega yfir í tungumál annarrar menningar. Ein menning er ekki ófullkomnari útgáfa af annarri: vetur er ekki frumstig vors; sumar er ekki óþroskað haust.”
+„Tungumál hinna svokölluðu frumstæðu manna er ekki ófullkomin túlkun á því sem komandi kynslóðir munu tjá með nákvæmari hætti: það hefur að geyma sína einstöku sýn á heiminn, sem er hægt að ná utan um, en ekki þýða algjörlega yfir í tungumál annarrar menningar. Ein menning er ekki ófullkomnari útgáfa af annarri: vetur er ekki frumstig vors; sumar er ekki óþroskað haust.“
 
 Þetta á við um margt annað í okkar daglega lífi. Við sjáum oft einhvers konar framþróun í kringum okkur (eða hnignun) án þess að þekkja samhengi hlutanna nóg til að geta dæmt um hana. Við þurfum að setja okkur í spor þeirra sem upplifðu fortíðina til að skilja á hvaða forsendum þau tóku þær ákvarðanir sem þau tóku.
 

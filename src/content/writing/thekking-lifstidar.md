@@ -9,7 +9,7 @@ tags:
 draft: false
 ---
 ![Whistler](/images/whistler.jpg)
-Bandaríski málarinn James McNeill Whistler[^note1] fór eitt sinn í mál við listgagnrýnandann John Ruskin. Whistler kærði Ruskin fyrir meiðyrði vegna þess að hinn síðarnefndi rakkaði niður verk hans og sagði það fásinnu að einhver óskaði eftir “tvöhundruð gíneum fyrir málningarslettum í andlit almennings”. Verkið sem Ruskin vísaði til voru svokölluð “næturljóð” eftir Whistler þar sem hann málaði impressjóníska mynd af flugeldasýningu. Upphæðin sem Ruskin nefnir, 200 gíneur, var há upphæð á áttunda áratug 19. aldar, líklega tugir milljóna króna á verðlagi dagsins í dag.
+Bandaríski málarinn James McNeill Whistler[^note1] fór eitt sinn í mál við listgagnrýnandann John Ruskin. Whistler kærði Ruskin fyrir meiðyrði vegna þess að hinn síðarnefndi rakkaði niður verk hans og sagði það fásinnu að einhver óskaði eftir „tvöhundruð gíneum fyrir málningarslettum í andlit almennings“. Verkið sem Ruskin vísaði til voru svokölluð „næturljóð“ eftir Whistler þar sem hann málaði impressjóníska mynd af flugeldasýningu. Upphæðin sem Ruskin nefnir, 200 gíneur, var há upphæð á áttunda áratug 19. aldar, líklega tugir milljóna króna á verðlagi dagsins í dag.
 
 Í réttarhöldunum var Whistler spurður hvað það hafi tekið hann langan tíma að mála verkið sem um ræðir og hann svaraði því að það tæki hann um tvo daga að klára.
 
@@ -17,7 +17,7 @@ Bandaríski málarinn James McNeill Whistler[^note1] fór eitt sinn í mál við
 
 „Nei,“ svaraði Whistler. „Ég óska eftir þeim fyrir þekkingu lífstíðar minnar.“
 
-Það er merkilegt að hugsa til þess að rúmlega 150 árum síðar föllum við enn í sömu gryfju málfærslumannsins hér að ofan. Við eigum það til að gera lítið úr verðmætum verka sem á yfirborðinu virðast krefjast lítillar vinnu. Enn þann dag í dag, þótt að abstraktlist hefur verið viðurkennt listform í rúma öld, heyrum við frasann “krakkinn minn hefði getað málað þetta” þegar óhlutbundin list á í hlut.
+Það er merkilegt að hugsa til þess að rúmlega 150 árum síðar föllum við enn í sömu gryfju málfærslumannsins hér að ofan. Við eigum það til að gera lítið úr verðmætum verka sem á yfirborðinu virðast krefjast lítillar vinnu. Enn þann dag í dag, þótt að abstraktlist hefur verið viðurkennt listform í rúma öld, heyrum við frasann „krakkinn minn hefði getað málað þetta“ þegar óhlutbundin list á í hlut.
 
 Eitt af því sem ég hef helst lært af menningarstarfsemi, hvort sem um ræðir myndlist, tónlist, bókmenntir eða sviðslistir, þá er það að klukkustundirnar sem fara í þau störf sem eru unnin eru ekki endilega besti mælikvarðinn á gæði vinnunnar. Tíminn skiptir máli, en hann segir ekki til um virðið. Það sem skiptir mestu máli eru gæði afurðarinnar.
 
