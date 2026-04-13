@@ -17,11 +17,11 @@ Ef við skoðum myndirnar tvær hérna fyrir neðan er auðvelt að upplifa þæ
 
 Fyrsta myndin sýnir einhverja dýpt í umhverfinu og andlitsdrættir og fellingar í fötum eru að nálgast raunsæja mynd. Það er samt eins og hún nái ekki alveg fullri dýpt þar sem skilin á milli bakgrunnsins og forgrunnsins eru ekki sérstaklega skýr.
 
-![][image1]
+![Giotto](/images/giotto.jpg)
 
 Í seinni myndinni sjáum við hins vegar raunverulegri dýpt. Andlitin eru raunsærri, skuggarnir skarpir og flatneskjan hverfur - það er skýr munur á milli þess sem er í bakgrunni og þess sem er í forgrunni. Fullkomnun virðist náð.
 
-![][image2]
+![Rafael](/images/rafael.jpg)
 
 Það er ekki fyrr en við skoðum þessi verk aftur, út frá nýjum sjónarhóli, sem við getum áttað okkur á verðmæti hvers og eins þeirra á eigin forsendum. Fyrsta verkið er málað á 14. öld og er eftir ítalska málarann Giotto en seinna verkið er málað eftir samlanda hans Rafael á 16. öld. Giotto nýtir allan rammann, dregur fram skæra liti og leggur áherslu á hreyfingu í fígúrum á meðan Rafael dregur fram skugga og dýpt og gengur enn lengra í látbragði fígura myndarinnar. Hvert og eitt þessara verka hefur ákveðna merkingu fyrir þann tíma sem það var skapað. Markmiðið var aldrei að fanga raunveruleikann heldur inntakið í ákveðnum kafla úr sögu Jesú Krists. Hver listamaður gerir það með sýnum hætti miðað við aðstæðurnar sem hann býr við hverju sinni.
 
