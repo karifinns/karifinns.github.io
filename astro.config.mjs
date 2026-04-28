@@ -7,7 +7,7 @@ const isUserSite = repositoryName.endsWith(".github.io");
 const base = process.env.SITE_BASE ?? (repositoryName && !isUserSite ? `/${repositoryName}` : "/");
 
 export default defineConfig({
-  site: process.env.SITE_URL ?? "https://karifinns.github.io",
+  site: process.env.SITE_URL ?? "https://finnsson.co",
   base,
   output: "static",
   trailingSlash: "ignore",

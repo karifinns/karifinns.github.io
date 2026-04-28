@@ -1,3 +1,4 @@
+export const siteUrl = "https://finnsson.co";
 export const siteTitle = "Kári Finnsson";
 export const siteTagline = "Dansað um arkitektúr.";
 export const siteDescription =
