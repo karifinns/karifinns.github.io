@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import GlobalStyles from "../components/GlobalStyles.astro";
 import SiteNav from "../components/SiteNav.astro";
+import SubscribeForm from "../components/SubscribeForm.astro";
 import { siteTitle, withBase } from "../lib/site";
 import { formatDate } from "../lib/writing";
 import { slugifyTag } from "../lib/writing";
@@ -85,6 +86,7 @@ const articleJsonLd = {
           <slot />
           <aside class="sidenote-layer" aria-hidden="true"></aside>
         </article>
+        <SubscribeForm variant="article" />
       </main>
     </div>
     <script is:inline>

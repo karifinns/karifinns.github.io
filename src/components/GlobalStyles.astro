@@ -246,9 +246,17 @@
     border-top: 1px solid var(--line);
   }
 
+  .subscribe-module-article {
+    margin-top: 5.2rem;
+  }
+
   .subscribe-module h2 {
     font-size: 1.42rem;
     margin: 0 0 0.75rem;
+  }
+
+  .subscribe-module-article h2 {
+    font-size: 1.24rem;
   }
 
   .subscribe-copy,
@@ -257,6 +265,27 @@
     font-size: 0.98rem;
     max-width: 30rem;
     margin-bottom: 1rem;
+  }
+
+  .subscribe-help {
+    font-family: var(--ui-font);
+    font-size: 0.74rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--soft);
+    margin-bottom: 0;
+  }
+
+  .subscribe-rss-link {
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .subscribe-rss-link:hover,
+  .subscribe-rss-link:focus-visible {
+    color: var(--text);
   }
 
   .subscribe-form {
@@ -695,6 +724,10 @@
     .subscribe-form {
       flex-direction: column;
       align-items: stretch;
+    }
+
+    .subscribe-help {
+      line-height: 1.5;
     }
 
     .project-list,

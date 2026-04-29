@@ -1,20 +1,35 @@
 ---
+import { withBase } from "../lib/site";
+
+interface Props {
+  variant?: "default" | "article";
+  title?: string;
+  copy?: string;
+  headingId?: string;
+}
+
 const action = import.meta.env.PUBLIC_SUBSCRIBE_FORM_ACTION?.trim();
 const hasAction = Boolean(action);
+const {
+  variant = "default",
+  title = variant === "article" ? "Fylgjast með skrifum" : "Tilkynningar um ný skrif",
+  copy = variant === "article"
+    ? "Ef þú vilt fylgjast með næstu greinum geturðu skráð netfangið þitt hér eða notað RSS-strauminn."
+    : "Ef þú vilt fá stutta tilkynningu í tölvupósti þegar ný grein birtist geturðu skráð netfangið þitt hér eða fylgst með í gegnum RSS-strauminn.",
+  headingId = variant === "article" ? "subscribe-title-article" : "subscribe-title"
+} = Astro.props;
+const rssUrl = withBase("/rss.xml");
 ---
 
-{hasAction && (
-  <section class="subscribe-module" aria-labelledby="subscribe-title">
-    <h2 id="subscribe-title">Tilkynningar um ný skrif</h2>
-    <p class="subscribe-copy">
-      Ef þú vilt fá stutta tilkynningu í tölvupósti þegar ný grein birtist geturðu skráð netfangið
-      þitt hér.
-    </p>
+<section class:list={["subscribe-module", variant === "article" && "subscribe-module-article"]} aria-labelledby={headingId}>
+  <h2 id={headingId}>{title}</h2>
+  <p class="subscribe-copy">{copy}</p>
 
+  {hasAction && (
     <form class="subscribe-form" method="post" action={action}>
-      <label class="visually-hidden" for="subscribe-email">Netfang</label>
+      <label class="visually-hidden" for={headingId + "-email"}>Netfang</label>
       <input
-        id="subscribe-email"
+        id={headingId + "-email"}
         class="subscribe-input"
         type="email"
         name="email"
@@ -26,5 +41,10 @@ const hasAction = Boolean(action);
       <input class="subscribe-honeypot" type="text" name="website" tabindex="-1" autocomplete="off" />
       <button class="subscribe-button" type="submit">Skrá mig</button>
     </form>
-  </section>
-)}
+  )}
+
+  <p class="subscribe-help">
+    RSS:
+    <a class="subscribe-rss-link" href={rssUrl}>finnsson.co/rss.xml</a>
+  </p>
+</section>
