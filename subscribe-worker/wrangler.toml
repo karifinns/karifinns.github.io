@@ -1,5 +1,6 @@
-name = "finnsson-subscribe"
+name = "subscriber-worker"
 main = "src/index.ts"
+tsconfig = "./tsconfig.json"
 compatibility_date = "2026-04-28"
 
 [vars]
