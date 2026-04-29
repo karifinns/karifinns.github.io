@@ -171,6 +171,14 @@ async function ensureContactSubscription(email: string, env: Env) {
     return;
   }
 
+  const createError = await safeParseError(created);
+
+  if (!contactAlreadyExists(createError)) {
+    throw new Error(
+      `Resend request failed (${created.status}) for /contacts: ${JSON.stringify(createError)}`
+    );
+  }
+
   await resendRequest(
     `/contacts/${encodeURIComponent(email)}`,
     {
@@ -197,6 +205,33 @@ async function ensureContactSubscription(email: string, env: Env) {
       })
     },
     env
+  );
+}
+
+async function safeParseError(response: Response) {
+  const text = await response.text();
+
+  try {
+    return JSON.parse(text);
+  } catch {
+    return { message: text || "Unknown error" };
+  }
+}
+
+function contactAlreadyExists(error: unknown) {
+  if (!error || typeof error !== "object") {
+    return false;
+  }
+
+  const record = error as Record<string, unknown>;
+  const message = typeof record.message === "string" ? record.message.toLowerCase() : "";
+  const name = typeof record.name === "string" ? record.name.toLowerCase() : "";
+
+  return (
+    name.includes("already") ||
+    name.includes("conflict") ||
+    message.includes("already exists") ||
+    message.includes("already been taken")
   );
 }
 
