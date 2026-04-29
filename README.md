@@ -41,6 +41,61 @@ Forskoðaðu byggðu síðuna staðbundið með:
 npm run preview
 ```
 
+## Tölvupóstáskrift fyrir ný skrif
+
+Vefurinn styður nú áskriftarform fyrir tilkynningar um ný skrif. Lausnin skiptist í tvennt:
+
+- Astro-síðan birtir form og sendir notandann á áskriftarenda
+- Cloudflare Worker sér um double opt-in og samskipti við Resend
+
+### Formið á síðunni
+
+Formið birtist á forsíðu og á `Skrif` síðunni þegar build-breytan `PUBLIC_SUBSCRIBE_FORM_ACTION` er stillt.
+
+Dæmi í staðbundinni þróun:
+
+```bash
+PUBLIC_SUBSCRIBE_FORM_ACTION=https://updates.finnsson.co/subscribe npm run dev
+```
+
+Í GitHub Actions er sama gildi lesið úr repository variable sem heitir `PUBLIC_SUBSCRIBE_FORM_ACTION`.
+
+### Worker fyrir áskrift
+
+Í `subscribe-worker/` er lítill Cloudflare Worker sem:
+
+- tekur við `POST /subscribe`
+- sendir staðfestingarpóst með Resend
+- staðfestir netfang með `GET /confirm?token=...`
+- býr til eða uppfærir Contact í Resend
+- skráir Contact í Topic fyrir ný skrif
+
+Fljótleg uppsetning:
+
+1. Farðu í `subscribe-worker/`
+2. Keyrðu `npm install`
+3. Stilltu environment variables / secrets í Cloudflare
+4. Keyrðu `npm run dev` eða `npm run deploy`
+
+Breytur sem þarf:
+
+- `RESEND_API_KEY`
+- `RESEND_FROM_EMAIL`
+- `RESEND_TOPIC_ID`
+- `SIGNING_SECRET`
+- `SITE_URL`
+- `SUBSCRIBE_BASE_URL`
+- `RESEND_REPLY_TO` (optional)
+
+### Resend stillingar
+
+Í Resend þarftu að:
+
+1. Búa til Topic fyrir ný skrif
+2. Afrita `topic id`
+3. Nota staðfest `from` netfang
+4. Senda ný innlegg út sem Broadcasts á þetta Topic
+
 ## Efni í skrifum
 
 Skrifafærslur eru geymdar í `src/content/writing/`.
@@ -82,7 +137,7 @@ Astro-stillingarnar styðja sjálfkrafa bæði:
 - user/organization síður eins og `https://karifinns.github.io`
 - project síður eins og `https://username.github.io/repository-name`
 
-Fyrir þetta repository nafn er production-slóðin sjálfgefið `https://karifinns.github.io`.
+Í þessu repository er production-slóðin `https://finnsson.co`.
 
 ## Verkefnaskipan
 

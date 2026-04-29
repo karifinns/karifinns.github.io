@@ -1,0 +1,7 @@
+name = "finnsson-subscribe"
+main = "src/index.ts"
+compatibility_date = "2026-04-28"
+
+[vars]
+SITE_URL = "https://finnsson.co"
+SUBSCRIBE_BASE_URL = "https://updates.finnsson.co"

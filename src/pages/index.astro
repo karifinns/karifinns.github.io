@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import MainLayout from "../layouts/MainLayout.astro";
+import SubscribeForm from "../components/SubscribeForm.astro";
 import WritingList from "../components/WritingList.astro";
 import { navigation, siteDescription, siteTitle, withBase } from "../lib/site";
 import { getVisibleWriting } from "../lib/writing";
@@ -25,4 +26,6 @@ const writing = getVisibleWriting(await getCollection("writing")).slice(0, 5);
       ))}
     </ul>
   </nav>
+
+  <SubscribeForm />
 </MainLayout>

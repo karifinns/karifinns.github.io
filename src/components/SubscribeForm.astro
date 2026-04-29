@@ -1,0 +1,30 @@
+---
+const action = import.meta.env.PUBLIC_SUBSCRIBE_FORM_ACTION?.trim();
+const hasAction = Boolean(action);
+---
+
+{hasAction && (
+  <section class="subscribe-module" aria-labelledby="subscribe-title">
+    <h2 id="subscribe-title">Tilkynningar um ný skrif</h2>
+    <p class="subscribe-copy">
+      Ef þú vilt fá stutta tilkynningu í tölvupósti þegar ný grein birtist geturðu skráð netfangið
+      þitt hér.
+    </p>
+
+    <form class="subscribe-form" method="post" action={action}>
+      <label class="visually-hidden" for="subscribe-email">Netfang</label>
+      <input
+        id="subscribe-email"
+        class="subscribe-input"
+        type="email"
+        name="email"
+        autocomplete="email"
+        inputmode="email"
+        placeholder="nafn@domain.is"
+        required
+      />
+      <input class="subscribe-honeypot" type="text" name="website" tabindex="-1" autocomplete="off" />
+      <button class="subscribe-button" type="submit">Skrá mig</button>
+    </form>
+  </section>
+)}
