@@ -142,11 +142,6 @@ async function handleConfirm(url: URL, env: Env) {
 }
 
 async function ensureContactSubscription(email: string, env: Env) {
-  const properties = {
-    signup_source: "website",
-    signup_confirmed_at: new Date().toISOString()
-  };
-
   const created = await resendRequest(
     "/contacts",
     {
@@ -154,7 +149,6 @@ async function ensureContactSubscription(email: string, env: Env) {
       body: JSON.stringify({
         email,
         unsubscribed: false,
-        properties,
         topics: [
           {
             id: env.RESEND_TOPIC_ID,
@@ -184,8 +178,7 @@ async function ensureContactSubscription(email: string, env: Env) {
     {
       method: "PATCH",
       body: JSON.stringify({
-        unsubscribed: false,
-        properties
+        unsubscribed: false
       })
     },
     env
