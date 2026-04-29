@@ -4,5 +4,7 @@ tsconfig = "./tsconfig.json"
 compatibility_date = "2026-04-28"
 
 [vars]
+RESEND_FROM_EMAIL = "Kári Finnsson <hello@updates.finnsson.co>"
+RESEND_TOPIC_ID = "84191440-acbd-4053-ae59-27662c142b6e"
 SITE_URL = "https://finnsson.co"
 SUBSCRIBE_BASE_URL = "https://updates.finnsson.co"
