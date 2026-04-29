@@ -40,10 +40,13 @@ export default {
       );
     } catch (error) {
       console.error(error);
+      const message = error instanceof Error ? error.message : "Óþekkt villa";
 
       return page(
         "Eitthvað fór úrskeiðis",
-        "<p>Ekki tókst að ljúka aðgerðinni núna. Reyndu aftur síðar.</p>",
+        `<p>Ekki tókst að ljúka aðgerðinni núna. Reyndu aftur síðar.</p><p><small>${escapeHtml(
+          message
+        )}</small></p>`,
         500
       );
     }
