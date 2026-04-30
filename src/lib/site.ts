@@ -2,7 +2,7 @@ export const siteUrl = "https://finnsson.co";
 export const siteTitle = "Kári Finnsson";
 export const siteTagline = "Dansað um arkitektúr.";
 export const siteDescription =
-  "Skrif, verkefni og glósur eftir Kára Finnsson, sett fram á hljóðlátan og lesvænan hátt.";
+  "Skrif, verkefni og fleira frá Kára Finnssyni";
 
 export const navigation = [
   { href: "/writing", label: "Skrif" },
