@@ -1,6 +1,6 @@
 ---
 title: "Sumar er ekki óþroskað haust"
-description: "Um listfræði, Isaiah Berlin og þá freistingu að lesa fortíðina sem ófullkomna útgáfu af nútímanum."
+description: "Hvernig listasagan kennir okkur að skilja framfarir."
 publishDate: 2026-03-18
 tags:
   - Listfræði

@@ -1,6 +1,6 @@
 ---
 title: "Þekking lífstíðar"
-description: "Um virði verka, fórnarkostnað og þekkingu sem safnast upp yfir langan tíma."
+description: "Málningarslettur í andlit almennings og verðmæti vinnu."
 publishDate: 2026-01-03
 tags:
   - Hagfræði

@@ -1,6 +1,6 @@
 ---
 title: "Við erum í sjónrænum bransa"
-description: "Um vörumerki, hvernig þau eru margbrotnari en þau virðast á yfirborðinu."
+description: "Af hverju vörumerki eru margþættari en þau virðast við fyrstu sýn."
 publishDate: 2026-02-03
 tags:
   - Vörumerki
@@ -9,7 +9,7 @@ tags:
 draft: false
 ---
 
-Einu sinni starfaði ég á fjármálasviði á listagalleríi í New York. Starfið fékk ég eftir að hafa lokið við nám í listviðskiptum hjá Sotheby´s Institute of Art en eigandi gallerísins hafði smalað mér úr skólanum vegna þess að hún þurfti einhvern talnaglöggan og listþenkjandi einstakling til að starfa hjá sér.
+Einu sinni starfaði ég á fjármálasviði á listagalleríi í New York. Starfið fékk ég eftir að hafa lokið við nám í listviðskiptum hjá Sotheby's Institute of Art en eigandi gallerísins hafði smalað mér úr skólanum vegna þess að hún þurfti einhvern talnaglöggan og listþenkjandi einstakling til að starfa hjá sér.
 
 Starfið var vægast sagt krefjandi, ekki endilega vegna þess hversu erfitt það var að halda utan um fjármál gallerísins (sem var á við meðalstórt fyrirtæki í veltu á íslenskan mælikvarða), heldur vegna eigandans. Hún hafði verið stórt nafn í áttunni í listheiminum og þekkti alla í bransanum. Hún var hörð í horn að taka en líka klók á markaðinn og með einstaklega gott auga. Þessu til viðbótar var hún með OCD á háu stigi, sem varð til þess að andrúmsloft vinnustaðarins var þrúgandi og streitufullt þar sem allt þurfti að vera gert samkvæmt hennar höfði og hennar einstöku reglum. Hvern einasta morgun þurfi skrifborðið hennar að vera sett upp með sama hætti, sama teið ætti að vera pantað frá sama stað á sama tíma og hafa nákvæmlega rétt hitastig. Hárblásarinn fór af stað ef einhver vék frá þessari áætlun.
 

@@ -1,6 +1,6 @@
 ---
 title: "Þau sem skrifa"
-description: "Um gervigreind, ritað mál og hvers vegna skrif verða enn mikilvægari eftir því sem færri sinna þeim sjálf."
+description: "Um gervigreind, ritað mál og hvernig við sköpum okkur samkeppnisforskot."
 publishDate: 2026-04-13
 tags:
   - Skrif

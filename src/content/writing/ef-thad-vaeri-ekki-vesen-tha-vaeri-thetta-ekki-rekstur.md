@@ -1,6 +1,6 @@
 ---
 title: "Ef það væri ekki vesen, þá væri þetta ekki rekstur"
-description: "Um vandamál, óreiðu og hvers vegna vesenið er ekki frávik frá rekstri heldur hluti af eðli hans."
+description: "Af hverju fyrirtæki eru öll lauslega virk stórslys og hvað þú getur gert í því."
 publishDate: 2026-03-05
 tags:
   - Rekstur
