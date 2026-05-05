@@ -35,6 +35,7 @@ jobs:
 
       - name: Build site
         env:
+          PUBLIC_GA_MEASUREMENT_ID: ${{ vars.PUBLIC_GA_MEASUREMENT_ID }}
           SITE_URL: https://finnsson.co
           PUBLIC_SUBSCRIBE_FORM_ACTION: ${{ vars.PUBLIC_SUBSCRIBE_FORM_ACTION }}
         run: npm run build

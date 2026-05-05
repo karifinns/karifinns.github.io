@@ -41,6 +41,43 @@ Forskoðaðu byggðu síðuna staðbundið með:
 npm run preview
 ```
 
+## Google Analytics
+
+Vefurinn styður Google Analytics 4 með Google tag (`gtag.js`). Kóðinn hleðst aðeins inn þegar public build-breytan `PUBLIC_GA_MEASUREMENT_ID` er stillt.
+
+### Hvernig þú finnur Measurement ID
+
+Í Google Analytics 4:
+
+1. Farðu í `Admin`
+2. Opnaðu `Data streams`
+3. Veldu vefstreymið fyrir síðuna
+4. Afritaðu `Measurement ID` sem byrjar á `G-`
+
+Google mælir með að setja Google tag inn beint eftir `<head>` á öllum síðum og nota Measurement ID úr web data stream. Sjá leiðbeiningar:
+
+- [Set up Analytics for a website and/or app](https://support.google.com/analytics/answer/9304153)
+- [Find your Google tag ID](https://support.google.com/analytics/answer/9539598)
+
+### Staðbundin þróun
+
+Til að prófa þetta staðbundið:
+
+```bash
+PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX npm run dev
+```
+
+### GitHub Pages
+
+Í GitHub repository:
+
+1. Farðu í `Settings` -> `Secrets and variables` -> `Actions`
+2. Bættu við repository variable sem heitir `PUBLIC_GA_MEASUREMENT_ID`
+3. Settu gildið sem Measurement ID úr Google Analytics (`G-...`)
+4. Pushaðu á `main` eða rerun-aðu Pages workflow
+
+Þegar breytan er stillt birtist GA4 tagið sjálfkrafa í `<head>` á öllum síðum.
+
 ## Tölvupóstáskrift fyrir ný skrif
 
 Vefurinn styður nú áskriftarform fyrir tilkynningar um ný skrif. Lausnin skiptist í tvennt:
