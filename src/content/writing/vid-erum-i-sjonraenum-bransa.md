@@ -9,6 +9,8 @@ tags:
 draft: false
 ---
 
+![Vermeer, The Love Letter](https://www.rijksmuseum.nl/assets/7e37fb41-f6ae-423e-8aca-10d1b2412f6d?w=1920&h=972&fx=2220&fy=1782&c=56f08cb3a1338741b9cb50f19081d45cdf7d6b8bcbc826c982aa50de100efede)
+
 Ég áttaði mig ekki á því þá en athugasemdir sem ég fékk snemma á starfsferli mínum um línubil og leturgerð á reikningi áttu eftir að hafa mótandi áhrif á mig mörgum árum síðar. 
 
 Einu sinni starfaði ég á fjármálasviði á listagalleríi í New York. Starfið fékk ég eftir að hafa lokið við nám í listviðskiptum hjá Sotheby's Institute of Art en eigandi gallerísins hafði ráðið mig til sín að námi loknu vegna þess að hún þurfti einhvern talnaglöggan og listþenkjandi einstakling til að starfa hjá sér.
