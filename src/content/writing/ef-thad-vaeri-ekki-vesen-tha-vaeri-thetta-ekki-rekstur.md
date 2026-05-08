@@ -9,6 +9,8 @@ tags:
 draft: false
 ---
 
+![Uppskerufólk í ökrum](/images/ef-thad-vaeri-ekki-vesen-harvest.png)
+
 Við eigum öll daga í vinnu þar sem ekkert gengur að óskum. Pantanir berast seint, fundir enda í þvaðri, reikningar stemma ekki, viðskiptavinur kvartar eða segir upp, starfsmenn kvarta eða segja upp og við töpum annað hvort tíma eða peningum eða hvoru tveggja. Þetta er ótrúlega pirrandi. Af hverju getur ekki allt gengið smurt?
 
 Svo mætum við í vinnuna næsta dag og höldum þessari hringavitleysu áfram. Við náum árangri í einu verkefni aðeins til að missa boltann í öðru. Við eyðum mörgum klukkutímum í kynningu fyrir viðskiptavin sem kaus að fara annað með sín viðskipti. Það fóru margir dagar í að forrita virkni sem stjórnendur vilja ekki vinna áfram með.
