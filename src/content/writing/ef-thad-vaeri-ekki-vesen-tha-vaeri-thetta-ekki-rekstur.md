@@ -11,11 +11,11 @@ draft: false
 
 ![Uppskerufólk í ökrum](/images/ef-thad-vaeri-ekki-vesen-harvest.png)
 
-Við eigum öll daga í vinnu þar sem ekkert gengur að óskum. Pantanir berast seint, fundir enda í þvaðri, reikningar stemma ekki, viðskiptavinur kvartar eða segir upp, starfsmenn kvarta eða segja upp og við töpum annað hvort tíma eða peningum eða hvoru tveggja. Þetta er ótrúlega pirrandi. Af hverju getur ekki allt gengið smurt?
+Við eigum öll daga í vinnu þar sem ekkert gengur að óskum. Pantanir berast seint, fundir enda í þvaðri, reikningar stemma ekki, viðskiptavinur kvartar, starfsmenn segja upp og við töpum annað hvort tíma eða peningum eða hvoru tveggja. Þetta er ótrúlega pirrandi. Af hverju getur ekki allt gengið smurt?
 
 Svo mætum við í vinnuna næsta dag og höldum þessari hringavitleysu áfram. Við náum árangri í einu verkefni aðeins til að missa boltann í öðru. Við eyðum mörgum klukkutímum í kynningu fyrir viðskiptavin sem kaus að fara annað með sín viðskipti. Það fóru margir dagar í að forrita virkni sem stjórnendur vilja ekki vinna áfram með.
 
-Við könnumst öll við þessa tilfinningu og höfum öll fussað og sveiað yfir svona andartökum í vinnu. En þrátt fyrir tuðið og tilraunir okkar til að leysa vandamálin, þá skjóta þau alltaf kollinum upp aftur.
+Við könnumst öll við þessa tilfinningu og höfum öll fussað og sveiað yfir svona andartökum. En þrátt fyrir tuðið og tilraunir okkar til að leysa vandamálin, þá skjóta þau alltaf kollinum upp aftur.
 
 Þegar vinnan verður einstaklega kaótísk er mér stundum hugsað til tilvitnunar frá bandarískum fjárfesti sem hefur setið lengi í mér: „Öll fyrirtæki eru lauslega virk stórslys og sum þeirra skila hagnaði þrátt fyrir það“, sagði hann í viðtali[^note1] þar sem hann fór yfir hvernig jafnvel stöðugustu fyrirtæki heimsins eru samansafn af vandamálum, ruglingi, rifrildum og óskipulagi.
 
